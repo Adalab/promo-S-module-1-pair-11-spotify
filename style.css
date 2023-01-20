@@ -58,9 +58,17 @@
     margin: 20px;
 }
 
+/* h2 {
+    width: 100vw;
+} */
+
 .white {
     background-color: white;
+    /* border: solid 8px red; */
+    padding-bottom: 50px;
     color: black;
+    display: block;
+    justify-content: space-between;
 }
 
 .footer {
@@ -73,9 +81,18 @@
 .dancer {
     display: flex;
     justify-content: right;
-   
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    /* border: dashed blue; */
+    width: 50%;
+}
+
+.benefit {
+    display: flex;
+}
 
 /*RESPONSIVE*/
 /* 1. MOBILE PHONE: No hace falta ponerlo -> hasta 480px */
