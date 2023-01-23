@@ -93,9 +93,12 @@
 }
 
 .footer {
+    border: 3px solid red;
+    padding: 50px;
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -112,6 +115,24 @@
 }
 
 .benefit {
+    display: flex;
+}
+.div1 {
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cookies {
+    margin-left: 15px;
+}
+
+.información {
+    display: flex;
+    /*como bajar la línea */
+}
+.div2 {
+    border: 2px solid green;
     display: flex;
 }
 
