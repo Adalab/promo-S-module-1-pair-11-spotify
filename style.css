@@ -144,6 +144,9 @@
 
 /*Para que se oculte en la tablet*/
 @media (min-width: 480px) {
+    .logoBurger {
+        display: none;
+    }
     .navheader {
         display: block;
     }
