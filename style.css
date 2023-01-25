@@ -35,9 +35,6 @@
     color: white;
     width: 375px;
     justify-content: space-evenly;
-
-    
-
 }
 
 .enlaces2 {
@@ -101,6 +98,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
 
 .dancer {
@@ -119,9 +122,9 @@
     display: flex;
 }
 .div1 {
-    border: 2px solid yellow;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .cookies {
@@ -132,9 +135,16 @@
     display: flex;
     /*como bajar la línea */
 }
-.div2 {
-    border: 2px solid green;
-    display: flex;
+
+.divs {
+   margin-top: -20px;
+   margin-bottom: -50px;
+   margin-left: -30px;
+}
+
+.div3 {
+    margin-top: -50px;
+    margin-right: -30px;
 }
 
 /*RESPONSIVE*/
